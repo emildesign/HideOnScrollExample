@@ -3,6 +3,7 @@ package pl.michalz.hideonscrollexample.adapter.parttwo.viewholder;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
 import pl.michalz.hideonscrollexample.R;
 
 public class RecyclerItemViewHolder extends RecyclerView.ViewHolder {
@@ -22,5 +23,4 @@ public class RecyclerItemViewHolder extends RecyclerView.ViewHolder {
     public void setItemText(CharSequence text) {
         mItemTextView.setText(text);
     }
-
 }
